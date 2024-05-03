@@ -8,7 +8,7 @@
     import { receivingEmail } from "../lib/stores";
     let address = $receivingEmail;
 
-    const url = "https://post.justatemp.com"
+    const url = "https://post.tedps.tk"
   
     let copyrightYear = new Date().getFullYear();
     let emails = []
@@ -33,7 +33,7 @@
     // @ts-ignore
     async function generateEmail(reload) {
         let words = generate(2)
-        receivingEmail.set(words[0] + "." + words[1] + Math.floor(Math.random() * 1000) + "@justatemp.com")
+        receivingEmail.set(words[0] + "." + words[1] + Math.floor(Math.random() * 1000) + ".tempmail@tedps.tk.")
 
         if (reload) {
             // use this instead of window.location.reload(); to avoid resending POST requests
@@ -121,7 +121,7 @@
             <!-- Header -->
             <h1 class="text-start" style="font-family: 'Inter Tight', sans-serif;font-weight: 600;margin-bottom: 16px;">
                 <span style="font-weight: normal !important; color: rgb(255, 255, 255);">📮&nbsp;</span>
-                Just a Temp
+                tedps.tk Temp Mail
             </h1>
             <p class="text-start" style="margin-bottom: 32px;font-size: 20px;">
                 Yet another temporary email generator. But this time open source, ad-free, and privacy-friendly. Generate a temporary email below and receive emails.

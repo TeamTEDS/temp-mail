@@ -5,7 +5,7 @@ import { browser } from "$app/environment"
 import { generate } from "random-words";
 
 let words = generate({ exactly: 2, maxLength: 5 });
-let alt = words[0] + "." + words[1] + Math.floor(Math.random() * 1000) + "@justatemp.com"; // format: word1.word2<random_number>@justatemp.com
+let alt = words[0] + "." + words[1] + Math.floor(Math.random() * 1000) + ".tempmail@tedps.tk"; // format: word1.word2<random_number>@justatemp.com
 
 // Make the email address a store
 // Thanks to u/sharath725 (https://www.reddit.com/r/sveltejs/comments/p438og/comment/h90fdjc)
