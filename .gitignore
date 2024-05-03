@@ -109,3 +109,9 @@ dev.md
 # Key files
 *.pem
 record.txt
+
+# PNPM
+pnpm-lock.yaml
+
+# Wrangler
+.wrangler
